@@ -10,27 +10,76 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=location_on" />
-
 </head>
 <body>
     <main class="main-container">
+        
         <header class="input-container">
             <input type="text" class="city-input" placeholder="Search city">
             <button class="search-btn">
-                <span class="material-symbols-outlined">
-                    search
-                </span>
+                <img src="/media/weather/search.svg">
             </button>
         </header>
 
         <section class="weather-info">
             <div class="locaton-date-container">
                 <div class="location">
+                    <img src="/media/weather/globe_location_pin.svg" alt="">
+                    <h4 class="country-text">RUSSIA</h4>
+                </div>
+                <h5 class="current-date regural-txt">Thu, 23 Oct</h5>
+            </div>
+
+            <div class="weather-summary-container">
+                <img src="/media/weather/clouds.svg" class="weather-summary-img">
+                <div class="weather-summary-info">
+                    <h1 class="temp-txt">10 ℃</h1>
+                    <h3 class="condition-txt regural-txt">Clouds</h3>
+                </div>
+            </div>
+
+            <div class="weather-conditions-container">
+                <div class="condition-item">
+                    <img src="/media/weather/water_drop.svg">
+                    <div class="condition-info">
+                        <h5 class="regulat-txt">Humidity</h5>
+                        <h5 class="humidity-value-txt">55%</h5>
+                    </div>
+                </div>
+
+                <div class="condition-item">
+                    <img src="/media/weather/wind.svg">
+                    <div class="condition-info">
+                        <h5 class="regulat-txt">Wind speed</h5>
+                        <h5 class="wind-value-txt">3 m/s</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forecast-items-container">
+                <div class="forecast-item">
+                    <h5 class="forecast-date regular-txt">23 Oct</h5>
+                    <img src="/media/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-temp">23 ℃</h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-date regular-txt">23 Oct</h5>
+                    <img src="/media/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-temp">23 ℃</h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-date regular-txt">23 Oct</h5>
+                    <img src="/media/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-temp">23 ℃</h5>
+                </div>
+                <div class="forecast-item">
+                    <h5 class="forecast-date regular-txt">23 Oct</h5>
+                    <img src="/media/weather/thunderstorm.svg" class="forecast-item-img">
+                    <h5 class="forecast-temp">23 ℃</h5>
                 </div>
             </div>
         </section>
+
     </main>
 </body>
 </html>
